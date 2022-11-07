@@ -5,6 +5,11 @@ metadata:
   description: An example deployment of a Backstage application.
   annotations:
     github.com/project-slug: backstage/demo
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
+    
 spec:
   type: website
   owner: backstage/maintainers
